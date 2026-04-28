@@ -33,10 +33,10 @@ Simply post the reservation to the rest interface: /locky/hotel/booking
 	}
 
 Note:
-"bookingId" - your reservation id, can be used when you send delete request below.
-"checkedIn" - can be set to true or false. 
-"end" - Can be set and activated automatically checkout, but normally its better you handle deletion of the event upon checkout, contract end or pausing.
-"start" - Can be todays date or in the future, if automatically checkin is activated the code given will start working at that time.
+ - bookingId => your reservation id, can be used when you send delete request below.
+ - checkedIn => can be set to true or false. 
+ - end => Can be set and activated automatically checkout, but normally its better you handle deletion of the event upon checkout, contract end or pausing.
+ - start => Can be todays date or in the future, if automatically checkin is activated the code given will start working at that time.
 
     # Return response
     The request will return a HotelBooking that also have a code field.
