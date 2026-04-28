@@ -21,9 +21,9 @@ Simply post the reservation to the rest interface: /locky/hotel/booking
     {
 	  "roomId": "we_provide_you_with_the_room_id",
 	  "guestName": "Henrik Test",
-	  "guestEmail": "kai@yalidian.com",
+	  "guestEmail": "guest@bedify.net",
 	  "phonePrefix": "47",
-	  "phoneNumber": "48311484",
+	  "phoneNumber": "1928381",
 	  "start": "2025-07-10T15:00:00.000Z",
 	  "end" : null
 	  "comment": "string",
