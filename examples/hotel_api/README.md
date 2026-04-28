@@ -38,8 +38,8 @@ Note:
  - end => Can be set and activated automatically checkout, but normally its better you handle deletion of the event upon checkout, contract end or pausing.
  - start => Can be todays date or in the future, if automatically checkin is activated the code given will start working at that time.
 
-    # Return response
-    The request will return a HotelBooking that also have a code field.
+### Return response
+The request will return a HotelBooking that also have a code field.
 
 Thats all you need to do to generate an valid access with an access code.
 
